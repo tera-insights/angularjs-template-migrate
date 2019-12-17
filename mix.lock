@@ -1,0 +1,4 @@
+%{
+  "porcelain": {:hex, :porcelain, "2.0.3", "2d77b17d1f21fed875b8c5ecba72a01533db2013bd2e5e62c6d286c029150fdc", [:mix], [], "hexpm"},
+  "xslt": {:hex, :xslt, "0.1.1", "fe327c60f2dccac6a0842fbe4601f118fc85fbaeda4f0802609366c9ebc8478a", [:mix], [{:porcelain, "~> 2.0", [hex: :porcelain, repo: "hexpm", optional: false]}], "hexpm"},
+}
