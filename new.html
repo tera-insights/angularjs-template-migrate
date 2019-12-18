@@ -1,8 +1,8 @@
-<div class="mg-link__hitbox" ng-click="$ctrl.open()" ng-switch="$ctrl.type">
-    <project-icon ng-switch-when="project-rich" pid="$ctrl.id" size="small" admin-mode="">
+<div class="mg-link__hitbox" ng-click="open()" ng-switch="type">
+    <project-icon ng-switch-when="project-rich" pid="id" size="small" admin-mode="">
     </project-icon>
-    <identicon ng-switch-when="user-rich" seed="$ctrl.id" size="24">
+    <identicon ng-switch-when="user-rich" seed="id" size="24">
     </identicon>
-    <span class="mg-link__text" ng-class="{'visited': $ctrl.visited()}" ng-transclude="">
+    <span class="mg-link__text" ng-class="{'visited': visited()}" ng-transclude="">
     </span>
 </div>
